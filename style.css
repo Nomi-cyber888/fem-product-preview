@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background-color: rgb(243, 234, 227);
+
+}
+*{
+    box-sizing: border-box;
+}
+@media (width < 490px) {
+    body{
+        background-color: rgb(243, 234, 227);
+        margin: 0;
+    }
+    *{
+        box-sizing: border-box;
+    }
+     .card{
+        margin: 0;
+        display: flex;
+        align-items: center;   
+
+    }
+    div section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: 6%; */
+        /* margin-right: 6%; */
+    }
+    .image{
+        height: 441px;
+        overflow: hidden;
+    }
+    img.im{
+        width: 370px;
+        height: 590px;
+        border-radius: auto;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+
+    }
+    section .content{
+        width: 370px;
+        height: 430px;
+    }
+    div .content h1{
+        width: 280px;
+    }
+    div .content p{
+        width: 290px;
+    }
+    div .content button{
+        width: 306px;
+        cursor: pointer;
+    }
+}
+.im{
+    width: 300px;
+    height: 467px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.content{
+    width: 300px;
+     height: 467px;
+    background-color: white;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+h6{
+    color:  hsl(228, 12%, 48%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;   
+    font-style: normal;
+    font-size: 14px;
+    margin: auto;
+    margin-left: 27px;
+    margin-top: 36px;
+    
+}
+p{
+    color:  hsl(228, 12%, 48%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    width:232px ;
+    margin-left: 27px;
+    line-height: 27px;
+}
+h1{
+    margin: auto;
+    margin-left: 27px;  
+    margin-top: 8%;
+    font-family: "Outfit", ;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    width: 203px;
+    line-height: 35px;
+}
+.price{
+    margin: auto;
+    margin-left: 27px;  
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 33px;
+    color: hsl(158, 36%, 37%);
+}
+#cut{
+    margin-left: 61%;
+    position: relative;
+    bottom: 10%;
+    text-decoration-line: line-through;
+
+}
+button{
+    width: 230px;
+    height: 45px;
+    margin: auto;
+    margin-left: 27px;
+    position: relative;
+    bottom: 6%;
+    background-color: hsl(158, 41%, 18%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#icon{
+    padding-right: 10px;
+}
+footer{
+    text-align: center;
+    padding-top: 14px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(20, 159, 108);
+    
+}
